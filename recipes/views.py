@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-def my_view(request):
+def home(request):
     # return HTTP RESPONSE
     return HttpResponse('uma linda string')
 
