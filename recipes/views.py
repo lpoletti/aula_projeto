@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 def home(request):
     # return HTTP RESPONSE
-    return HttpResponse('uma linda string')
+    return render(request,'home.html')
 
 def contato(request):
     # return HTTP RESPONSE
